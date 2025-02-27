@@ -9,26 +9,29 @@ Here is a list of important concepts your team should be familiar with to unders
    - Kubernetes for managing containerized applications in a clustered environment.
 
 3. **Machine Learning Models (mandatory)**:
-   - Car detection models and their training processes.
-   - Predictive modeling using real-time and historical data for parking demand.
+   - Car detection models and their training processes (focus in computer vision like: yolo > sam2 > tensorflow > pytorch).
+   - Predictive modeling using real-time and historical data for parking demand (focus in models for predict datetime like: sklearn > arima > LSTM NN > transformer).
 
 4. **API Development (mandatory)**:
    - Creating APIs to interact with machine learning models for inference.
    - REST and WebSocket protocols for communication.
 
 5. **Microservices Architecture / Message Queues**:
+   - Event Driven Architecture
    - Designing and developing microservices for specific functionalities.
    - Communication between microservices in a distributed system.
    - Kafka for building real-time data pipelines.
    - Kafka consumers for processing and storing data in databases.
 
-6. **Workflow Orchestration**:
+7. **Workflow Orchestration**:
+   - What's Orchestrator in Software
    - Tools like Apache Airflow or Kestra for orchestrating workflows and managing dependencies between tasks.
+   - Orchestration in Microservices Architecture
 
-7. **Database Management (optional)**:
+9. **Database Management (optional)**:
    - Understanding datetime databases and how to store and query time-series data efficiently.
 
-9. **Deployment and Scaling (optional)**:
+10. **Deployment and Scaling (optional)**:
    - Deploying microservices in Kubernetes clusters.
    - Monitoring and scaling applications in a containerized environment.
 
